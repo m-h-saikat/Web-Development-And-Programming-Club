@@ -15,7 +15,7 @@ const Member = (props) => {
                 <p>Age: {Age}</p>
                 <p>Hired Amount : $ {Salary}</p>
                 <button
-                    onClick={() => props.handleAddToCart(props)}
+                    onClick={() => props.handleAddToCart(props.member)}
                     className="btn-regular"
                 > Hire Me</button>
             </div>

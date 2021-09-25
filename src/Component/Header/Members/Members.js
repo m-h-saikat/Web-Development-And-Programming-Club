@@ -14,15 +14,15 @@ const Members = () => {
     },[])
 
 
-    const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
+    const handleAddToCart = (member) => {
+        const newCart = [...cart, member];
         setCart(newCart);
     }
 
     return (
         <div className="Members-container">
            
-            <div className="Member-container">
+            <div className="Member-container ">
                 {
                     members.map(member => <Member
                         key={member.key}
