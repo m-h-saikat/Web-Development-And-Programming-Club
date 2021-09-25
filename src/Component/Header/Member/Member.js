@@ -1,11 +1,13 @@
 import React from 'react';
 
 const Member = (props) => {
-    console.log(props);
+
     const {Name ,Age,Country ,Role ,Salary ,img} =props.member;
     return (
-        <div className="Member">
-            <div>
+<div class="container">
+  <div class="row">
+    <div class="col  me-5 mt-5 p-3 border rounded shadow p-3 mb-5 bg-white rounded">
+    <div>
                 <img src={img} alt="" width="100" height="100" />
             </div>
             <div>
@@ -16,12 +18,24 @@ const Member = (props) => {
                 <p>Hired Amount : $ {Salary}</p>
                 <button
                     onClick={() => props.handleAddToCart(props.member)}
-                    className="btn-regular"
+                    className="btn btn-warning"
                 > Hire Me</button>
             </div>
+    </div>
+  </div>
+</div>
 
-        </div>
+
+
+
+
+
+
+
+
+        
     );
 };
 
 export default Member;
+

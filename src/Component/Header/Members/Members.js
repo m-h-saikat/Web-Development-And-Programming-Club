@@ -22,7 +22,7 @@ const Members = () => {
     return (
         <div className="Members-container">
            
-            <div className="Member-container ">
+            <div className="Member-container  ">
                 {
                     members.map(member => <Member
                         key={member.key}
@@ -42,3 +42,6 @@ const Members = () => {
 };
 
 export default Members;
+
+
+

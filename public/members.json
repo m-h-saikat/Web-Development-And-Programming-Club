@@ -26,5 +26,32 @@
         "Country": "Bangladesh",
         "Salary": 190,
         "img": "https://cpc.daffodilvarsity.edu.bd/img/10.png"
+    },
+    {
+        "key": "4",
+        "Name": "Tahsin Iftekhar",
+        "Role": "Vice President (Development)",
+        "Age": "22",
+        "Country": "Bangladesh",
+        "Salary": 180,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/8.png"
+    },
+    {
+        "key": "5",
+        "Name": "Shimul Sutradhar",
+        "Role": "Vice President (ACM)",
+        "Age": "22",
+        "Country": "Bangladesh",
+        "Salary": 180,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/9.png"
+    },
+    {
+        "key": "6",
+        "Name": "Walid Bin Jashim",
+        "Role": "General Secretary",
+        "Age": "23",
+        "Country": "Bangladesh",
+        "Salary": 185,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/12.png"
     }
 ]
