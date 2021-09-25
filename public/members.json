@@ -1,0 +1,30 @@
+[
+    {
+        "key": "1",
+        "Name": "Nadim Mahmud Forhad",
+        "Role": "President",
+        "Age": "21",
+        "Country": "Bangladesh",
+        "Salary": 260,
+        "img": "https://cpc.daffodilvarsity.edu.bd/img/7.png"
+    },
+   
+    {
+        "key": "2",
+        "Name": "Shudipta Das Shupta",
+        "Role": "Vice President",
+        "Age": "22",
+        "Country": "Bangladesh",
+        "Salary": 200,
+        "img": "https://cpc.daffodilvarsity.edu.bd/img/26.png"
+    },
+ {
+        "key": "3",
+        "Name": "Md Sakibul Hasan",
+        "Role": "Vice President (R&J)",
+        "Age": "21",
+        "Country": "Bangladesh",
+        "Salary": 190,
+        "img": "https://cpc.daffodilvarsity.edu.bd/img/10.png"
+    }
+]
