@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./ProgrammerList.css";
-
 import HiredProgrammer from "../HiredProgrammer/HiredProgrammer";
 import ProgrammerDetails from "../ProgrammerDetails/ProgrammerDetails";
 
 const ProgrammerList = () => {
+
+  //stores a component's dynamic data
   const [programmerList, setProgrammerList] = useState([]);
   const [hiredProgrammer, setHiredProgrammer] = useState([]);
+
+  //Get Data fro JSON File
   useEffect(() => {
     fetch("./programmers.json")
       .then((res) => res.json())
@@ -14,6 +17,8 @@ const ProgrammerList = () => {
   }, []);
 
   const AddToHiredProgrammer = (programmerDetails) => {
+
+    // Add HireProgrammer Number in  Total Programmers 
     const newHiredProgrammer = [...hiredProgrammer, programmerDetails];
     setHiredProgrammer(newHiredProgrammer);
   };

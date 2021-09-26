@@ -2,13 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
-
 import "./HiredProgrammer.css";
 
 const HiredProgrammer = (props) => {
   const { hiredProgrammer } = props;
-
   let totalQuantity = 0;
   let total = 0;
   let CheckBudget ='';
@@ -20,14 +17,11 @@ const HiredProgrammer = (props) => {
     totalQuantity = totalQuantity + programmer.quantity;
     if(parseInt(total)>500)
     {  CheckBudget =`budget is exceeded`}
-    
   }
-
   return (
     <div className="container HiredProgrammer  me-5 mt-5 p-3 border rounded shadow p-3 mb-5  rounded">
       <h4>
         <b>
-            
           <FontAwesomeIcon icon={faUsers} /> Total Programmers :
         </b>
         {totalQuantity}
@@ -37,8 +31,7 @@ const HiredProgrammer = (props) => {
       </h4>
       <br />
       <div className="HiredProgrammerList">
-        <h4 className="text-danger">
-            
+        <h4 className="text-danger">    
           <b> Hired Programmer List</b>
         </h4>
         <hr />

@@ -4,7 +4,9 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import "./ProgrammerDetails.css";
 
 const Programmer = (props) => {
+  //Get data by props
   const { Name, Age, Country, Role, Salary, img ,Expert } = props.programmerList;
+  // Get Name, Age, Country, Role, Salary, img ,Expert by destructuring
   return (
     <div className="container">
       <div className="row">
@@ -38,7 +40,7 @@ const Programmer = (props) => {
               onClick={() => props.AddToHiredProgrammer(props.programmerList)}
               className="btn btn-warning btn-outline-dark"
             >
-               
+
               Hire Me <FontAwesomeIcon icon={faUserPlus} />
             </button>
           </div>
