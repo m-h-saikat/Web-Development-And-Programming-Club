@@ -24,8 +24,11 @@ const ProgrammerList = () => {
   };
 
   return (
-    <div className="Programmers-container">
-      <div className="Programmer-container  ">
+<div>
+<div className="row mt-4 m-3">
+    <div className="col-md-9 ">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+         
         {programmerList.map((programmerList) => (
           <ProgrammerDetails
             key={programmerList.key}
@@ -33,11 +36,13 @@ const ProgrammerList = () => {
             AddToHiredProgrammer={AddToHiredProgrammer}
           ></ProgrammerDetails>
         ))}
-      </div>
-      <div className="HiredProgrammer-Container">
-        <HiredProgrammer hiredProgrammer={hiredProgrammer}></HiredProgrammer>
-      </div>
+        </div>
     </div>
+    <div className="col-md-3">
+        <HiredProgrammer hiredProgrammer={hiredProgrammer}></HiredProgrammer>
+    </div>
+</div>
+</div>
   );
 };
 
