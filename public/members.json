@@ -53,5 +53,63 @@
         "Country": "Bangladesh",
         "Salary": 185,
         "img": "http://cpc.daffodilvarsity.edu.bd/img/12.png"
+    },
+    {
+        "key": "7",
+        "Name": "Md. Mahfuzullah Mufi",
+        "Role": "Assistant General Secretary",
+        "Age": "23",
+        "Country": "Bangladesh",
+        "Salary": 205,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/15.png"
+    },
+    {
+        "key": "8",
+        "Name": "Abdullah Al Ryan",
+        "Role": "Treasurer",
+        "Age": "24",
+        "Country": "Bangladesh",
+        "Salary": 200,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/13.png"
+    }
+    ,
+    {
+        "key": "9",
+        "Name": "Kishoar Jahan Tithee ",
+        "Role": "Press Secretary",
+        "Age": "22",
+        "Country": "Bangladesh",
+        "Salary": 200,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/14.png"
+    }
+    ,
+    {
+        "key": "10",
+        "Name": "Chandan Kumar",
+        "Role": "Assistant Press Secretary",
+        "Age": "23",
+        "Country": "Bangladesh",
+        "Salary": 180,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/21.png"
+    }
+    ,
+    {
+        "key": "11",
+        "Name": "Sahadath Hossen Saykot",
+        "Role": "Creative Designer",
+        "Age": "23",
+        "Country": "Bangladesh",
+        "Salary": 150,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/25.png"
+    }
+    ,
+    {
+        "key": "12",
+        "Name": "Shahid Shariar",
+        "Role": "Assistant Creative Designer",
+        "Age": "23",
+        "Country": "Bangladesh",
+        "Salary": 130,
+        "img": "http://cpc.daffodilvarsity.edu.bd/img/24.png"
     }
 ]

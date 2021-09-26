@@ -27,13 +27,15 @@ let totalQuantity = 0;
         <div className="container cart  me-5 mt-5 p-3 border rounded shadow p-3 mb-5  rounded">
            <h4><b> <FontAwesomeIcon icon={faUsers}/> Total Programmers :</b>{totalQuantity}</h4>
             <h4><b>Total Cost :</b> ${total.toFixed(2)}</h4>
-          
+          <br />
             <div className="HiredProgrammerList">
-                    <h4>Hired Programmer List</h4>
+                    <h4 className="text-danger"> <b> Hired Programmer List</b></h4>
                     <hr/>
-                    <ol>
+                    <ol type="None">
                         {
-                            cart.map(programmer => <li key={programmer.Name}>{programmer.Name}
+                            cart.map(programmer => 
+                            <li key={programmer.Name ,programmer.Salary,programmer.img}> <img src={programmer.img} height="30" weight="30"/>
+                                 <b>{programmer.Name}(${programmer.Salary})</b>
                             </li>)
                         }
                     </ol>
