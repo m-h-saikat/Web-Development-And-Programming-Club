@@ -12,8 +12,8 @@ const Header = () => {
       </p>
       <hr />
       <h2>
-        Total Budget : <span className="Budget">10 Million</span>{" "}
-      </h2>
+        Total Budget : <span className="Budget text-danger">$500</span>
+      </h2> 
     </div>
   );
 };

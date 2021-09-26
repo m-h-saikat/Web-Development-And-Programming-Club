@@ -4,7 +4,7 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import "./ProgrammerDetails.css";
 
 const Programmer = (props) => {
-  const { Name, Age, Country, Role, Salary, img } = props.programmerList;
+  const { Name, Age, Country, Role, Salary, img ,Expert } = props.programmerList;
   return (
     <div className="container">
       <div className="row">
@@ -14,12 +14,17 @@ const Programmer = (props) => {
           </div>
           <div>
             <h4 className=" text-danger text-uppercase  ">
-              <b>{Name}</b>{" "}
+              <b>{Name}</b> 
             </h4>
             <p>
-              {" "}
-              <small>Role By.</small> <b>{Role}</b>{" "}
+            
+            <small>Expert in</small > <b><span className="text-primary"> {Expert}</span></b>
+          </p>
+            <p>
+               
+              <small>Role By.</small > <b><span className="text-success"> {Role}</span></b> 
             </p>
+           
             <p>
               <b>Country:</b> {Country}
             </p>
@@ -33,7 +38,7 @@ const Programmer = (props) => {
               onClick={() => props.AddToHiredProgrammer(props.programmerList)}
               className="btn btn-warning btn-outline-dark"
             >
-              {" "}
+               
               Hire Me <FontAwesomeIcon icon={faUserPlus} />
             </button>
           </div>
@@ -44,3 +49,8 @@ const Programmer = (props) => {
 };
 
 export default Programmer;
+
+
+
+
+
