@@ -7,9 +7,9 @@ const Member = (props) => {
 
     const {Name ,Age,Country ,Role ,Salary ,img} =props.member;
     return (
-<div class="container">
-  <div class="row">
-    <div class="Member-info col   me-3 mt-3 p-3 ms-3 border rounded shadow p-3   rounded">
+<div className="container">
+  <div className="row">
+    <div className="Member-info col   me-3 mt-3 p-3 ms-3 border rounded shadow p-3   rounded">
     <div>
                 <img src={img} alt="" width="130" height="130" />
             </div>

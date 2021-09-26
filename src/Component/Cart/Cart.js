@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {  faUserPlus } from '@fortawesome/free-solid-svg-icons'
+
 import './Cart.css'
 
 const Cart = (props) => {
@@ -34,7 +34,7 @@ let totalQuantity = 0;
                     <ol type="None">
                         {
                             cart.map(programmer => 
-                            <li key={programmer.Name ,programmer.Salary,programmer.img}> <img src={programmer.img} height="30" weight="30"/>
+                            <li key={programmer.Name}> <img src={programmer.img} height="30" weight="30" alt=""/>
                                  <b>{programmer.Name}(${programmer.Salary})</b>
                             </li>)
                         }
